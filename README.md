@@ -10,11 +10,10 @@ I'm **Will**, a web developer and code tinkerer living in **🇬🇧 London, UK*
 |*It's deserted here… 😔*|🏜️|🌃|
 ### Stats
 ![Will's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)
-<figure><embed src="https://wakatime.com/share/@a345175e-628e-4692-8abd-b349e72e294a/7ac23843-3870-4034-9d1e-d59527adf038.svg"></embed></figure>
------
-This *README* file is regenerated **every 6 hours**.
+----- 
+<p align="center">This *README* file is regenerated **every 6 hours**.
 *Should I have written it in Rust? No*
 
-Last Update: Wednesday, 22 June, 13:32 GMT+0000
+Last Update: **Wednesday, 22 June, 13:40 GMT+0000**
 
-![Source Code](https://github.com/wsandy1/wsandy1)
+![Source Code](https://github.com/wsandy1/wsandy1)</p>

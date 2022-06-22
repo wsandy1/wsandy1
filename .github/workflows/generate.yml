@@ -2,7 +2,9 @@ name: Rust
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+     - src/main.rs
+     - .github/workflows/generate.yml
   schedule:
     - cron: "0 */6 * * *"
 
@@ -21,3 +23,7 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
         BASE_URL: ${{ secrets.BASE_URL }}
       run: cargo run --verbose
+    - name: Commit and push new README.md to the repo
+      uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

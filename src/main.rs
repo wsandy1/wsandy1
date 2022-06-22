@@ -33,9 +33,9 @@ struct LearnResponse {
 
 async fn fetch_tech() -> Vec<Technology> {
     let client = reqwest::Client::new();
-    let res = client.get("https://kfdnfursahricicgfilg.supabase.co/rest/v1/technologies?select=*")
-                    .header("apikey", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtmZG5mdXJzYWhyaWNpY2dmaWxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTU4ODgxMjcsImV4cCI6MTk3MTQ2NDEyN30.x_JwfCaK8cMs642_ZRDv-VdaA31lZJW_yzUxunuPv48")
-                    .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtmZG5mdXJzYWhyaWNpY2dmaWxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTU4ODgxMjcsImV4cCI6MTk3MTQ2NDEyN30.x_JwfCaK8cMs642_ZRDv-VdaA31lZJW_yzUxunuPv48")
+    let res = client.get(format!("{}technologies?select=*", env::var("BASE_URL").unwrap()))
+                    .header("apikey", env::var("API_KEY").unwrap())
+                    .header("Authorization", format!("Bearer {}", env::var("API_KEY").unwrap()))
                     .send()
                     .await
                     .unwrap();

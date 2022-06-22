@@ -103,5 +103,5 @@ async fn main() {
     for item in learn.iter() {
         write!(file, "![{}]({}) ", item.name, item.badge).unwrap();
     }
-
+    write!(file, "\n it worked!").unwrap();
 }

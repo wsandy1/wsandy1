@@ -86,7 +86,7 @@ async fn main() {
     // for local testing
     dotenv().ok();
 
-    let mut file = std::fs::File::create("readme.md").unwrap();
+    let mut file = std::fs::File::create("README.md").unwrap();
 
     let greeting = "Hey there!👋";
     let intro = "I'm **Will**, a web developer and code tinkerer living in **🇬🇧 London, UK**. I've been coding since age 8, and since then I've learnt a lot but achieved remarkably little with it!";

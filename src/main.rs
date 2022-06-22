@@ -185,6 +185,6 @@ async fn main() {
             write!(file, "|**[{}]({})**|{}|{}|", project.name, project.url, repo_details.stargazers_count, repo_details.forks).unwrap();
         }
     }
-    write!(file, "\n### Stats\n![Will's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)\n<figure><embed src=\"https://wakatime.com/share/@a345175e-628e-4692-8abd-b349e72e294a/7ac23843-3870-4034-9d1e-d59527adf038.svg\"></embed></figure>\n").unwrap();
-    write!(file, "-----\nThis *README* file is regenerated **every 6 hours**.\n*Should I have written it in Rust? No*\n\nLast Update: {}\n\n![Source Code](https://github.com/wsandy1/wsandy1)", Local::now().format("%A, %e %B, %H:%M GMT%z")).unwrap()
+    write!(file, "\n### Stats\n![Will's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)\n").unwrap();
+    write!(file, "----- \n<p align=\"center\">This *README* file is regenerated **every 6 hours**.\n*Should I have written it in Rust? No*\n\nLast Update: **{}**\n\n![Source Code](https://github.com/wsandy1/wsandy1)</p>", Local::now().format("%A, %e %B, %H:%M GMT%z")).unwrap()
 }

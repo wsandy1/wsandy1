@@ -11,9 +11,9 @@ I'm **Will**, a web developer and code tinkerer living in **🇬🇧 London, UK*
 ### Stats
 ![Will's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)
 ----- 
-<p align="center">This *README* file is regenerated **every 6 hours**.
-*Should I have written it in Rust? No*
+<p align="center">This <i>README</i> file is regenerated <strong>every 6 hours</strong></p>.
+<p align="center"><i>Should I have written it in Rust? No</i></p>
 
-Last Update: **Wednesday, 22 June, 13:40 GMT+0000**
+<p align="center">Last Update: <strong>Wednesday, 22 June, 14:01 GMT+0000</strong></p>
 
-![Source Code](https://github.com/wsandy1/wsandy1)</p>
+<p align="center"><a href="https://github.com/wsandy1/wsandy1">Source Code</a></p>

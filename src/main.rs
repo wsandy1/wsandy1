@@ -186,5 +186,5 @@ async fn main() {
         }
     }
     write!(file, "\n### Stats\n![Will's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)\n").unwrap();
-    write!(file, "----- \n<p align=\"center\">This *README* file is regenerated **every 6 hours**.\n*Should I have written it in Rust? No*\n\nLast Update: **{}**\n\n![Source Code](https://github.com/wsandy1/wsandy1)</p>", Local::now().format("%A, %e %B, %H:%M GMT%z")).unwrap()
+    write!(file, "----- \n<p align=\"center\">This <i>README</i> file is regenerated <strong>every 6 hours</strong></p>.\n<p align=\"center\"><i>Should I have written it in Rust? No</i></p>\n\n<p align=\"center\">Last Update: <strong>{}</strong></p>\n\n<p align=\"center\"><a href=\"https://github.com/wsandy1/wsandy1\">Source Code</a></p>", Local::now().format("%A, %e %B, %H:%M GMT%z")).unwrap()
 }

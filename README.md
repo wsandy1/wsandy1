@@ -14,6 +14,6 @@ I'm **Will**, a web developer and code tinkerer living in **🇬🇧 London, UK*
 <p align="center">This <i>README</i> file is regenerated <strong>every 6 hours</strong></p>.
 <p align="center"><i>Should I have written it in Rust? No</i></p>
 
-<p align="center">Last Update: <strong>Sunday, 24 May, 19:15 GMT+0000</strong></p>
+<p align="center">Last Update: <strong>Monday, 25 May, 03:41 GMT+0000</strong></p>
 
 <p align="center"><a href="https://github.com/wsandy1/wsandy1">Source Code</a></p>
